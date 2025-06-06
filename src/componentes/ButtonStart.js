@@ -1,8 +1,11 @@
+import { useNavigate } from 'react-router-dom';
 import './ButtonStart.css';
 
 function ButonStart() {
+    const navigate = useNavigate();
+
     function irParaOutraPagina() {
-        window.location.href = './pages/Home'; // ou a rota desejada
+        navigate('/Botao/Carta');   
     }
 
     return (
