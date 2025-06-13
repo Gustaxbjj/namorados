@@ -13,7 +13,7 @@ function BtnContinuar() {
     <div className='paiBtnContinuar'>
       <div className='button'>
         <button className='buttoncontinuar' onClick={irParaHome}>
-          Continuar para o amor 💖
+          Continuar para o acervo 💖
         </button>
       </div>
     </div>
